@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mayank091193/quasar-widgets">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Quasar Widgets</h3>
@@ -48,6 +48,7 @@ This section should list any major frameworks that you built your project using.
 * [Quasar Framework](https://quasar.dev/)
 * [Vue.js](https://vuejs.org/)
 
+## Getting Started
 ### Installation
 
 * Clone the repo
