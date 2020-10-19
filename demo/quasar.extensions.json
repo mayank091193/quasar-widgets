@@ -1,0 +1,9 @@
+{
+  "q-widgets": {},
+  "json-api-viewer": {},
+  "@quasar/qmarkdown": {
+    "import_md": true,
+    "import_vmd": false
+  },
+  "@quasar/qribbon": {}
+}
