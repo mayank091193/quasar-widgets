@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/mayank091193/quasar-widgets">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,9 +13,9 @@
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/mayank091193/quasar-widgets/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/mayank091193/quasar-widgets/issues">Request Feature</a>
   </p>
 </p>
 
@@ -64,7 +64,7 @@ npm install
 
 <p float="left">
 	<kbd>
-        <img src="assets/countdown.png" border="1" alt="Countdown"  />
+        <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/countdown.png" border="1" alt="Countdown"  />
     </kbd>
 </p>
 
@@ -77,7 +77,7 @@ npm install
 
 <p float="left">
 	<kbd>
-        <img src="assets/stopwatch.png" border="1" alt="Stopwatch"  />
+        <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/stopwatch.png" border="1" alt="Stopwatch"  />
     </kbd>
 </p>
 
@@ -90,7 +90,7 @@ npm install
 
 <p float="left">
 	<kbd>
-        <img src="assets/weather.png" border="1" alt="Weather"  />
+        <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/weather.png" border="1" alt="Weather"  />
     </kbd>
 </p>
 
@@ -103,7 +103,7 @@ npm install
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/mayank091193/quasar-widgets/issues) for a list of proposed features (and known issues).
 
 
 
@@ -125,6 +125,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Mayank Patel - [@mayank091193](https://twitter.com/mayank91193) - mayank091193@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/mayank091193/quasar-widgets](https://github.com/mayank091193/quasar-widgets)
 
 Website: https://mayank-patel.netlify.app/#/
