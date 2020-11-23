@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mayank091193/quasar-widgets">
-    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="225" height="80">
   </a>
 
   <h3 align="center">Quasar Widgets</h3>
@@ -28,12 +28,13 @@
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
+* [Support](#support)
 * [License](#license)
 * [Contact Me](#contact)
 
 ## About The Project
 
-Free library of great widgets to handle specific requirements in a n effective manner. Instant integration, fully responsive and supports all major browsers!
+Free library of great widgets to handle specific requirements in an effective manner. Instant integration, fully responsive and supports all major browsers!
 
 Here's why:
 * Just install, integrate by giving the type and few other required attributes and that's it.
@@ -117,6 +118,16 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Support
+
+If this helps you, you can contribute to this project by supporting me:
+
+### [💜Support my open-source work on GitHub](https://github.com/sponsors/mayank091193)
+
+Please check out my sponsor page.
+
+Thank you very much!!
 
 ## License
 

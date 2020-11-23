@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/mayank091193/quasar-widgets">
-    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="225" height="80">
   </a>
 
   <h3 align="center">Quasar Widgets</h3>

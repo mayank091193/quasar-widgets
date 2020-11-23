@@ -50,10 +50,12 @@
 </template>
 
 <script>
+    import moment from "moment"
+    import { Skycons } from '../extension-js/skycons'
     export default {
         data() {
             return {
-                api_key: '79ffca195eb3d23021d7969639a23c95',
+                api_key: '0d4b13828de6a68a2738b03d03e0721c',
                 url_base: 'https://api.openweathermap.org/data/2.5/',
                 query: '',
                 weather: {},
@@ -66,9 +68,9 @@
         methods: {
             fetchWeather(e) {
                 for (var i = 0; i < 2; i++) {
-                    if (e.key == "Enter") {
+                    if (e.key === "Enter") {
                         // fetch() is from JS
-                        if (this.query.split(",").length == 2) {
+                        if (this.query.split(",").length === 2) {
                             this.city = this.query.split(",")[0].trim();
                             this.state = this.query.split(",")[1].trim();
                         }
@@ -82,7 +84,7 @@
             manipulateResponse(results) {
                 this.weather = results;
                 // Set up skycon
-                let time = new Date().getHours();
+                let time = moment().hour();
                 let weatherMain = this.weather.weather[0].main;
                 switch (weatherMain.toLowerCase()) {
                     case "clouds":
@@ -123,14 +125,7 @@
                 }
             },
             dateBuilder() {
-                let d = new Date();
-                let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-                let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-                let day = days[d.getDay()];
-                let date = d.getDate();
-                let month = months[d.getMonth()];
-                let year = d.getFullYear();
-                return `${day} ${date} ${month} ${year}`
+                return moment().format("dddd DD MMMM YYYY")
             },
             capitalizeFirstLetter(string) {
                 return string.charAt(0).toUpperCase() + string.slice(1);

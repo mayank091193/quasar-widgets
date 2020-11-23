@@ -19,5 +19,7 @@
     "npm": ">= 5.6.0",
     "yarn": ">= 1.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
 }

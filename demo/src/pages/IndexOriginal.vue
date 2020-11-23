@@ -57,12 +57,6 @@
         </q-card>
       </div>
     </div>
-    <div class="q-pa-md q-gutter-sm">
-      <q-btn type="a" href="https://www.linkedin.com/" icon="fab fa-linkedin-in" class="social_button" label="Linkedin" style="background-color:#0277b5;color:white" />
-      <q-btn type="a" href="https://www.facebook.com/" icon="fab fa-facebook-f" class="social_button" label="Facebook" style="background-color:#3e67c0;color:white" />
-      <q-btn type="a" href="https://twitter.com/" icon="fab fa-twitter" class="social_button" label="Twitter" color="blue" />
-      <q-btn type="a" href="https://www.pinterest.com/" icon="fab fa-pinterest-p" class="social_button" label="Pinterest" color="red" />
-    </div>
   </q-page>
 </template>
 <script>
