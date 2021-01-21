@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar class="bg-grey-9">
         <q-btn
           flat
           dense
@@ -35,7 +35,7 @@
             <q-icon name="home"/>
           </q-item-section>
           <q-item-section>
-            <q-item-label>Quasar Widgets API</q-item-label>
+            <q-item-label>Quasar Widgets</q-item-label>
           </q-item-section>
         </q-item>
         <q-item clickable to="/examples">
@@ -126,10 +126,9 @@
 
     <q-page-container>
 
-
       <section class="page-header q-pa-none q-ma-none">
         <div class="text-h1 project-name">Quasar Widgets</div>
-        <q-btn type="a" href="https://github.com/mayank091193/quasar-draggable-tree" target="_blank"
+        <q-btn type="a" href="https://github.com/mayank091193/quasar-widgets" target="_blank"
                class="btn q-mr-sm" label="View on GitHub" no-caps/>
         <q-btn to="/docs" class="btn q-mr-sm" label="Docs" no-caps/>
         <q-btn to="/examples" class="btn" label="Examples" no-caps/>
@@ -163,7 +162,7 @@
     color: #fff !important;;
     text-align: center !important;;
     background-color: #00f !important;;
-    background: linear-gradient(145deg, #4a5e89 15%, #b61924 70%) !important;
+    background: linear-gradient(145deg, #3f51b5 15%, #de7824 70%) !important;
   }
 
 

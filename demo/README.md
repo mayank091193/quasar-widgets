@@ -8,10 +8,10 @@
   <p align="center">
     An awesome set of beautiful Widgets made with love using Quasar Framework and Vue.js!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://quasar-widgets.netlify.app/#/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://quasar-widgets.netlify.app/#/examples">View Demo</a>
     ·
     <a href="https://github.com/mayank091193/quasar-widgets/issues">Report Bug</a>
     ·
@@ -53,10 +53,11 @@ This section should list any major frameworks that you built your project using.
 
 * Clone the repo
 ```
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/mayank091193/quasar-widgets.git
 ```
 * Install NPM packages
 ```
+cd quasar-widgets/demo
 npm install
 ```
 
@@ -96,9 +97,9 @@ npm install
 </p>
 
 
-* Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra".
+* Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra". Please note, this package utilizes "OpenWeatherMap" API. Please replace ```api_key``` with your own "OpenWeatherMap" API key. However, the package will use the default API if you do not pass it.
 ```
-  <q-widgets name="weather"></q-widgets>
+  <q-widgets name="weather" api_key=""></q-widgets>
 ```
 
 <!-- ROADMAP -->

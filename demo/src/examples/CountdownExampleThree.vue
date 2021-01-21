@@ -22,7 +22,7 @@
       <q-card class="bg-black flex flex-center text-white q-pa-sm">
           <span class="text-weight-bold inline-block q-mx-md"
                 style="font-size:20px;color: yellow;">Black Friday Sale<br>up to 60% OFF</span>
-          <q-widgets name="countdown" date="2020-07-30 15:17:00" bgColor="yellow" fontColor="black" labelColor="yellow"
+          <q-widgets v-if="widget_friday_date" name="countdown" :date="widget_friday_date" bgColor="yellow" fontColor="black" labelColor="yellow"
                      class="inline-block"></q-widgets>
           <q-btn size="md" class="q-ma-md" style="background: yellow;color:black" label="Shop Now"/>
         </q-card>
@@ -32,10 +32,22 @@
 
 <script>
     import CodeTabs from "../components/CodeTabs";
+    import moment from "moment"
 
     export default {
         name: "CountdownExampleThree",
         components: {CodeTabs},
+        data() {
+            return {
+                widget_friday_date: null,
+            }
+        },
+        created() {
+            if (moment().weekday() < 6)
+                this.widget_friday_date = moment().day(5).format("YYYY-MM-DD") + " 00:00:00";
+            else
+                this.widget_friday_date = moment().add(1, 'week').day(5).format("YYYY-MM-DD") + " 00:00:00";
+        },
         props: {
             tagParts: {
                 type: Object,

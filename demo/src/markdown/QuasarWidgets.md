@@ -1,14 +1,11 @@
 <p align="center">
   <a href="https://github.com/mayank091193/quasar-widgets">
-    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="225" height="80">
+    <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/quasar-widgets-logo.png" alt="Logo" width="325" height="100">
   </a>
-
-  <h3 align="center">Quasar Widgets</h3>
 
   <p align="center">
     An awesome set of beautiful Widgets made with love using Quasar Framework and Vue.js!
     <br />
-    <a href="https://quasar-widgets.netlify.app/#/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://quasar-widgets.netlify.app/#/examples">View Demo</a>
@@ -19,22 +16,9 @@
   </p>
 </p>
 
-## Table of Contents
-
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [Support](#support)
-* [License](#license)
-* [Contact Me](#contact)
-
 ## About The Project
 
-Free library of great widgets to handle specific requirements in an effective manner. Instant integration, fully responsive and supports all major browsers!
+Free library of great widgets to handle specific requirements in a n effective manner. Instant integration, fully responsive and supports all major browsers!
 
 Here's why:
 * Just install, integrate by giving the type and few other required attributes and that's it.
@@ -67,7 +51,7 @@ npm install
 
 <p float="left">
 	<kbd>
-        <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/countdown.png" border="1" alt="Countdown"  />
+        <img src="https://raw.githubusercontent.com/mayank091193/quasar-widgets/master/demo/assets/countdown.png" width="100%" border="1" alt="Countdown"  />
     </kbd>
 </p>
 
@@ -98,7 +82,7 @@ npm install
 </p>
 
 
-* Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra". Please note, this package utilizes "OpenWeatherMap" API. Please replace ```api_key``` with your own "OpenWeatherMap" API key. However, the package will use the default API if you do not pass it. 
+* Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra".
 ```
   <q-widgets name="weather" api_key=""></q-widgets>
 ```
@@ -119,16 +103,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## Support
-
-If this helps you, you can contribute to this project by supporting me:
-
-### [💜Support my open-source work on GitHub](https://github.com/sponsors/mayank091193)
-
-Please check out my sponsor page.
-
-Thank you very much!!
 
 ## License
 

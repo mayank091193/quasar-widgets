@@ -9,6 +9,8 @@
         :tag-parts="getTagParts(require('!!raw-loader!../examples/CountdownExampleThree.vue').default)"></countdown-example-three>
       <stopwatch
         :tag-parts="getTagParts(require('!!raw-loader!../examples/Stopwatch.vue').default)"></stopwatch>
+      <Weather
+        :tag-parts="getTagParts(require('!!raw-loader!../examples/Weather.vue').default)"></Weather>
     </div>
   </q-page>
 </template>
@@ -18,11 +20,12 @@
     import CountdownExampleTwo from "../examples/CountdownExampleTwo";
     import CountdownExampleThree from "../examples/CountdownExampleThree";
     import Stopwatch from "../examples/Stopwatch";
+    import Weather from "../examples/Weather";
     import {getTagParts} from '@quasar/quasar-ui-qmarkdown'
 
     export default {
         name: "Examples",
-        components: {CountdownExampleOne, CountdownExampleTwo, CountdownExampleThree, Stopwatch},
+        components: {CountdownExampleOne, CountdownExampleTwo, CountdownExampleThree, Stopwatch, Weather},
         methods: {
             getTagParts
         }

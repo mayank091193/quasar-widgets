@@ -25,13 +25,13 @@
 
             <q-card-section>
                 <div class="weather-box">
-                        <div class="temp">{{ Math.round(weather.main.temp) }}°C</div>
-                        <div>
-                            <!--                            <img class="icon"-->
-                            <!--                                 :src="`http://openweathermap.org/img/wn/` + weather.weather[0].icon + `@2x.png`"/>-->
-                            <canvas style="margin-top: 15px;" id="skycon" width="90" height="90"></canvas>
-                        </div>
+                    <div class="temp">{{ Math.round(weather.main.temp) }}°C</div>
+                    <div>
+                        <!--                            <img class="icon"-->
+                        <!--                                 :src="`http://openweathermap.org/img/wn/` + weather.weather[0].icon + `@2x.png`"/>-->
+                        <canvas style="margin-top: 15px;" id="skycon" width="90" height="90"></canvas>
                     </div>
+                </div>
             </q-card-section>
         </q-card>
         <q-card style="background-color: rgba(0, 0, 0, 0.68) !important;" flat bordered
@@ -51,11 +51,17 @@
 
 <script>
     import moment from "moment"
-    import { Skycons } from '../extension-js/skycons'
+    import {Skycons} from '../extension-js/skycons'
+
     export default {
+        props: {
+            api_key: {
+                type: String,
+                default: () => "0d4b13828de6a68a2738b03d03e0721c",
+            },
+        },
         data() {
             return {
-                api_key: '0d4b13828de6a68a2738b03d03e0721c',
                 url_base: 'https://api.openweathermap.org/data/2.5/',
                 query: '',
                 weather: {},

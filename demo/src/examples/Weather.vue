@@ -12,24 +12,16 @@
         <q-toolbar-title
           class="example-title"
           style="padding: 5px 20px;"
-        ><span class="ellipsis">Countdown Example One - Basic</span></q-toolbar-title>
+        ><span class="ellipsis">weather</span></q-toolbar-title>
       </q-ribbon>
     </q-toolbar>
     <q-card-section class="q-px-sm q-pb-none">
       <code-tabs :tagParts="tagParts"></code-tabs>
     </q-card-section>
     <q-card-section class="q-px-sm">
-      <q-card class="text-center q-pa-none">
+      <q-card class="text-center flex flex-center">
         <q-card-section>
-          <label class="text-h6" :class="!$q.dark.isActive?'text-black':'text-grey-5'">⚡️ Limited-time offer! Sale ends
-            in</label>
-        </q-card-section>
-        <q-card-section class="q-pa-none q-my-md">
-          <q-widgets name="countdown" fontColor="white" :labelColor="!$q.dark.isActive?'black':'white'"
-                     :date="widget_date"></q-widgets>
-        </q-card-section>
-        <q-card-section class="q-pt-xs">
-          <q-btn size="md" style="background: #544e4e;color:white" label="Shop Now"/>
+          <q-widgets name="weather" api_key=""></q-widgets>
         </q-card-section>
       </q-card>
     </q-card-section>
@@ -38,16 +30,10 @@
 
 <script>
     import CodeTabs from "../components/CodeTabs";
-    import moment from "moment"
 
     export default {
-        name: "CountdownExampleOne",
+        name: "Weather",
         components: {CodeTabs},
-        data() {
-            return {
-                widget_date: moment().add(2, "days").format("YYYY-MM-DD HH:MM:SS"),
-            }
-        },
         props: {
             tagParts: {
                 type: Object,
@@ -57,3 +43,9 @@
         },
     }
 </script>
+<style>
+  .weather_bg {
+    background-image: url(~assets/images/new_year_bg.jpg) !important;
+    background-size: cover;
+  }
+</style>

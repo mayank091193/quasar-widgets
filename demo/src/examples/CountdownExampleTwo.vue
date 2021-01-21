@@ -21,11 +21,11 @@
     <q-card-section class="q-px-sm">
       <q-card class="text-center new_year_bg">
         <q-card-section>
-          <label class="text-h5 text-white">New Year 2021 is coming 🎉🎉</label>
+          <label class="text-h5 text-white">New Year {{widget_year}} is coming 🎉🎉</label>
         </q-card-section>
         <q-card-section class="q-pa-none q-my-md">
           <q-widgets name="countdown" bgColor="white" fontColor="red" labelColor="white"
-                     date="2021-01-01 00:00:00"></q-widgets>
+                     :date="widget_date"></q-widgets>
         </q-card-section>
         <q-card-section class="q-pt-xs">
           <q-btn size="md" style="background: #ed3247;color:white" label="Shop Now"/>
@@ -37,10 +37,17 @@
 
 <script>
     import CodeTabs from "../components/CodeTabs";
+    import moment from "moment"
 
     export default {
         name: "CountdownExampleTwo",
         components: {CodeTabs},
+        data() {
+            return {
+                widget_date: moment().startOf('year').add(1, 'year').format("YYYY-MM-DD HH:MM:SS"),
+                widget_year: moment().startOf('year').add(1, 'year').format("YYYY"),
+            }
+        },
         props: {
             tagParts: {
                 type: Object,
