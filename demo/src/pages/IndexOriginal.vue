@@ -67,8 +67,8 @@
         name: 'PageIndex',
         data() {
             return {
-                widget_date: moment().add(2, "days").format("YYYY-MM-DD HH:MM:SS"),
-                widget_year_date: moment().startOf('year').add(1, 'year').format("YYYY-MM-DD HH:MM:SS"),
+                widget_date: moment().add(2, "days").format("YYYY-MM-DD HH:mm:ss"),
+                widget_year_date: moment().startOf('year').add(1, 'year').format("YYYY-MM-DD HH:mm:ss"),
                 widget_year: moment().startOf('year').add(1, 'year').format("YYYY"),
                 widget_friday_date: null,
             }

@@ -99,7 +99,7 @@ npm install
 
 * Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra". Please note, this package utilizes "OpenWeatherMap" API. Please replace ```api_key``` with your own "OpenWeatherMap" API key. However, the package will use the default API if you do not pass it.
 ```
-  <q-widgets name="weather" api_key=""></q-widgets>
+<q-widgets name="weather" api_key=""></q-widgets>
 ```
 
 <!-- ROADMAP -->

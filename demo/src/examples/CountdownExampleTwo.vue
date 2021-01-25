@@ -44,7 +44,7 @@
         components: {CodeTabs},
         data() {
             return {
-                widget_date: moment().startOf('year').add(1, 'year').format("YYYY-MM-DD HH:MM:SS"),
+                widget_date: moment().startOf('year').add(1, 'year').format("YYYY-MM-DD HH:mm:ss"),
                 widget_year: moment().startOf('year').add(1, 'year').format("YYYY"),
             }
         },

@@ -17,7 +17,8 @@
             <div :style="'color:'+labelColor">Hours</div>
         </span>
         <span class="number-block">
-            <q-chip v-for="(item, index) in (''+minutes).split('')" :key="index" :color="bgColor" :text-color="fontColor"
+            <q-chip v-for="(item, index) in (''+minutes).split('')" :key="index" :color="bgColor"
+                    :text-color="fontColor"
                     class="glossy text-weight-bold time_cls shadow-4"
                     size="25px"
                     square>{{ item }}
@@ -25,7 +26,8 @@
             <div :style="'color:'+labelColor">Minutes</div>
         </span>
         <span class="number-block">
-            <q-chip v-for="(item, index) in (''+seconds).split('')" :key="index" :color="bgColor" :text-color="fontColor"
+            <q-chip v-for="(item, index) in (''+seconds).split('')" :key="index" :color="bgColor"
+                    :text-color="fontColor"
                     class="glossy text-weight-bold time_cls shadow-4"
                     size="25px"
                     square>{{ item }}

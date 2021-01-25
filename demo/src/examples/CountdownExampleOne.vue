@@ -45,7 +45,7 @@
         components: {CodeTabs},
         data() {
             return {
-                widget_date: moment().add(2, "days").format("YYYY-MM-DD HH:MM:SS"),
+                widget_date: moment().add(2, "days").format("YYYY-MM-DD HH:mm:ss"),
             }
         },
         props: {
