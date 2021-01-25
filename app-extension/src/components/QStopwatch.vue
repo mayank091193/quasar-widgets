@@ -2,9 +2,9 @@
     <span>
         <span class="time" :style="'color:'+fontColor">{{ time }}</span>
         <div class="q-gutter-sm">
-            <q-btn size="md" color="primary" @click="start" :style="'color:'+fontColor" label="Start"/>
-            <q-btn size="md" color="primary" @click="stop" :style="'color:'+fontColor" label="Stop"/>
-            <q-btn size="md" color="primary" @click="reset" :style="'color:'+fontColor" label="Reset"/>
+            <q-btn size="md" color="primary" @click="start" :style="'color:'+fontColor" label="Start"></q-btn>
+            <q-btn size="md" color="primary" @click="stop" :style="'color:'+fontColor" label="Stop"></q-btn>
+            <q-btn size="md" color="primary" @click="reset" :style="'color:'+fontColor" label="Reset"></q-btn>
         </div>
   </span>
 </template>
