@@ -119,6 +119,16 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Support
+
+If this helps you, you can contribute to this project by supporting me:
+
+### [💜Support my open-source work on GitHub](https://github.com/sponsors/mayank091193)
+
+Please check out my sponsor page.
+
+Thank you very much!!
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
