@@ -19,6 +19,8 @@
   </p>
 </p>
 
+### NPM Package: https://www.npmjs.com/package/quasar-app-extension-q-widgets
+
 ## Table of Contents
 
 * [About the Project](#about-the-project)
