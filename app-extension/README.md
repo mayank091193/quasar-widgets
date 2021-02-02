@@ -25,6 +25,7 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
+  * [Uninstall](#uninstall)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -52,7 +53,14 @@ This section should list any major frameworks that you built your project using.
 ## Getting Started
 ### Installation
 
-* Clone the repo
+To add this App Extension to your Quasar application, run the following (in your Quasar app folder):
+
+```
+quasar ext add q-widgets
+```
+
+
+* Clone the repo (For Demo Project)
 ```
 git clone https://github.com/mayank091193/quasar-widgets.git
 ```
@@ -60,6 +68,13 @@ git clone https://github.com/mayank091193/quasar-widgets.git
 ```
 cd quasar-widgets/demo
 npm install
+```
+
+### Uninstall
+To remove this App Extension from your Quasar application, run the following (in your Quasar app folder):
+
+```
+quasar ext remove q-widgets
 ```
 
 ## Usage

@@ -27,15 +27,17 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
+  * [Uninstall](#uninstall)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
+* [Support](#support)
 * [License](#license)
 * [Contact Me](#contact)
 
 ## About The Project
 
-Free library of great widgets to handle specific requirements in a n effective manner. Instant integration, fully responsive and supports all major browsers!
+Free library of great widgets to handle specific requirements in an effective manner. Instant integration, fully responsive and supports all major browsers!
 
 Here's why:
 * Just install, integrate by giving the type and few other required attributes and that's it.
@@ -53,7 +55,14 @@ This section should list any major frameworks that you built your project using.
 ## Getting Started
 ### Installation
 
-* Clone the repo
+To add this App Extension to your Quasar application, run the following (in your Quasar app folder):
+
+```
+quasar ext add q-widgets
+```
+
+
+* Clone the repo (For Demo Project)
 ```
 git clone https://github.com/mayank091193/quasar-widgets.git
 ```
@@ -61,6 +70,13 @@ git clone https://github.com/mayank091193/quasar-widgets.git
 ```
 cd quasar-widgets/demo
 npm install
+```
+
+### Uninstall
+To remove this App Extension from your Quasar application, run the following (in your Quasar app folder):
+
+```
+quasar ext remove q-widgets
 ```
 
 ## Usage
@@ -99,7 +115,7 @@ npm install
 </p>
 
 
-* Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra". Please note, this package utilizes "OpenWeatherMap" API. Please replace ```api_key``` with your own "OpenWeatherMap" API key. However, the package will use the default API if you do not pass it.
+* Render the Weather widget on your website. It will ask users to enter the "city, state" e.g. "Pune, Maharashtra". Please note, this package utilizes "OpenWeatherMap" API. Please replace ```api_key``` with your own "OpenWeatherMap" API key. However, the package will use the default API if you do not pass it. 
 ```
 <q-widgets name="weather" api_key=""></q-widgets>
 ```
